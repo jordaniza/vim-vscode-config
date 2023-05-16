@@ -1,0 +1,23 @@
+ [
+   {
+    "key": "tab",
+    "command": "tab",
+    "when": "editorTextFocus && !editorReadonly && !editorTabMovesFocus"
+  },
+  {
+    "key": "shift+tab",
+    "command": "outdent",
+    "when": "editorTextFocus && !editorReadonly && !editorTabMovesFocus"
+  },
+  {
+    "key": "tab",
+    "command": "editor.action.inlineSuggest.commit",
+    "when": "github.copilot.activated && inlineSuggestionVisible"
+  },
+  {
+    "key": "shift+tab",
+    "command": "editor.action.inlineSuggest.hide",
+    "when": "github.copilot.activated && inlineSuggestionVisible"
+  }
+]
+ 
